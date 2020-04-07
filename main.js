@@ -33,3 +33,7 @@ var newStory = storyText;
 var xItem = randomValueFromArray(insertx);
 var yItem = randomValueFromArray(insertY);
 var zItem = randomValueFromArray(insertZ);
+
+newStory = newStory.replace(':insertX',xItem);
+newStory = newStory.replace(':insertY',yItem);
+newStory = newStory.replace(':insertZ',zItem);
