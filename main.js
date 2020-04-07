@@ -28,3 +28,8 @@ function result() {
   story.textContent = ;
   story.style.visibility = 'visible';
 }
+
+var newStory = storyText;
+var xItem = randomValueFromArray(insertx);
+var yItem = randomValueFromArray(insertY);
+var zItem = randomValueFromArray(insertZ);
