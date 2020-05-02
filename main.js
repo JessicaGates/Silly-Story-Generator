@@ -20,10 +20,10 @@ let xItem = randomValueFromArray(insertX);
 let yItem = randomValueFromArray(insertY);
 let zItem = randomValueFromArray(insertZ);
 
-newStory = newStory.replace(':insertx',xItem);
-newStory = newStory.replace(':insertx',xItem);
-newStory = newStory.replace(':inserty',yItem);
-newStory = newStory.replace(':insertz',zItem);
+newStory = newStory.replace(':insertx:',xItem);
+newStory = newStory.replace(':insertx:',xItem);
+newStory = newStory.replace(':inserty:',yItem);
+newStory = newStory.replace(':insertz:',zItem);
 
 if(customName.value !==''){
   const name = customName.value;
